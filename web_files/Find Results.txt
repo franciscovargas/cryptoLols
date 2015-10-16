@@ -1,0 +1,397 @@
+Searching 21 files for "pCloudCrypto" (case sensitive)
+
+/home/francisco/cryptoLols/web_files/diff:
+   67              if (this.uploads[a].crypto) this.startCryptoUpload(a), this.uploads[a].status =
+   68          this.uploads[a].crypto || setTimeout(this[this.opts.intProgressMethod].bind(this, a, !0), 80);
+   69:         this.uploads[a].crypto ? -1 != this.uploads[a].encuploadid && pCloudCryptoUpload.abort(this.uploads[a].encuploadid) : this.uploads[a].xhr ? this.uploads[a].xhr.abort() : (this.uploads[a].iframe && this.uploads[a].iframe.remove(), this.uploads[a].form && this.uploads[a].form.remove());
+   70                  p.text(b.metadata[f].name), p.appendTo($(h.find("span")[0])), this.uploads[a].crypto && h.find("span.name").prepend($('<img src="//d1q46pwrruta9x.cloudfront.net/img/crypto-upload.png" class="encrypted">').attr("title", __("encrypted_upload", "Encrypted Upload")).tooltip({
+   71              return this.cryptoSettings()
+   ..
+   89                      if (b.splice(1, 0, [i18n.get("Settings"), "#page=settings", []]), b[1][2].push([__("Account"), "#page=settings&settings=tab-account"]), HFN.config.label.hasLinkedAccounts && b[1][2].push([__("Linked Accounts"), "#page=settings&settings=tab-apps"]), HFN.config.user.cryptosetup && b[1][2].push([__("Crypto"), "#page=settings&settings=tab-crypto"]), b.splice(0, 1), "pcloud" == LABEL && b.push([i18n.get("Newsletter"), "javascript:(function(){ HFN.newsletter.show();})()"]),
+   90                      a.cryptosetup && b.push(HFN.initCrypto());
+   91:                 b.cryptosetup != a.userinfo.cryptosetup && (HFN.initGoogleAnalytics(), a.userinfo.cryptosetup || (pCrypt.locked || pCloudCrypto.lock(), $.bbq.pushState({
+   92                      page: "crypto"
+   93          $(".uplplc").empty().append($('<div class="button upload_button lock_crypto_btn"><img src="//d1q46pwrruta9x.cloudfront.net/img/crypto/lock_crypto.png"> ' + i18n.get("Lock Crypto") + "</div>").click(function(a) {
+   ..
+  124          var a = HFN.renderTemplate("#cryptostatus", {
+  125              pcloud_crypto_only_on_drive_message: __("pcloud_crypto_only_on_drive_message", !1, {
+  126:                 "parentfolderid" in b.opts.metadata && ("Crypto Folder" != b.opts.metadata.name || !b.opts.metadata.encrypted) && pCloudCrypto.cryptoRoot != b.opts.metadata.folderid && a.find("span").last().append(buildGearMenu(b.opts.metadata));
+  127:         "parentfolderid" in this.opts.metadata && this.opts.metadata.folderid != this.opts.metadata.parentfolderid && this.opts.metadata.folderid != pCloudCrypto.cryptoRoot && d.append($('<a class="cheader_up mnheader" href="javascript:void(0)">' + i18n.get("UP") + "</a>").click(function() {
+  128:         "parentfolderid" in this.opts.metadata && this.opts.metadata.folderid != this.opts.metadata.parentfolderid && this.opts.metadata.folderid != pCloudCrypto.cryptoRoot && d.append($('<a class="cheader_up mnheader" href="javascript:void(0)">' +
+  129                      ["crypto", "Crypto Folder", {
+  130                          crypto: 1
+
+/home/francisco/cryptoLols/web_files/grep1.txt:
+   67              if (this.uploads[a].crypto) this.startCryptoUpload(a), this.uploads[a].status =
+   68          this.uploads[a].crypto || setTimeout(this[this.opts.intProgressMethod].bind(this, a, !0), 80);
+   69:         this.uploads[a].crypto ? -1 != this.uploads[a].encuploadid && pCloudCryptoUpload.abort(this.uploads[a].encuploadid) : this.uploads[a].xhr ? this.uploads[a].xhr.abort() : (this.uploads[a].iframe && this.uploads[a].iframe.remove(), this.uploads[a].form && this.uploads[a].form.remove());
+   70                  p.text(b.metadata[f].name), p.appendTo($(h.find("span")[0])), this.uploads[a].crypto && h.find("span.name").prepend($('<img src="//d1q46pwrruta9x.cloudfront.net/img/crypto-upload.png" class="encrypted">').attr("title", __("encrypted_upload", "Encrypted Upload")).tooltip({
+   71              return this.cryptoSettings()
+   ..
+   89                      if (b.splice(1, 0, [i18n.get("Settings"), "#page=settings", []]), b[1][2].push([__("Account"), "#page=settings&settings=tab-account"]), HFN.config.label.hasLinkedAccounts && b[1][2].push([__("Linked Accounts"), "#page=settings&settings=tab-apps"]), HFN.config.user.cryptosetup && b[1][2].push([__("Crypto"), "#page=settings&settings=tab-crypto"]), b.splice(0, 1), "pcloud" == LABEL && b.push([i18n.get("Newsletter"), "javascript:(function(){ HFN.newsletter.show();})()"]),
+   90                      a.cryptosetup && b.push(HFN.initCrypto());
+   91:                 b.cryptosetup != a.userinfo.cryptosetup && (HFN.initGoogleAnalytics(), a.userinfo.cryptosetup || (pCrypt.locked || pCloudCrypto.lock(), $.bbq.pushState({
+   92                      page: "crypto"
+   93          $(".uplplc").empty().append($('<div class="button upload_button lock_crypto_btn"><img src="//d1q46pwrruta9x.cloudfront.net/img/crypto/lock_crypto.png"> ' + i18n.get("Lock Crypto") + "</div>").click(function(a) {
+   ..
+  124          var a = HFN.renderTemplate("#cryptostatus", {
+  125              pcloud_crypto_only_on_drive_message: __("pcloud_crypto_only_on_drive_message", !1, {
+  126:                 "parentfolderid" in b.opts.metadata && ("Crypto Folder" != b.opts.metadata.name || !b.opts.metadata.encrypted) && pCloudCrypto.cryptoRoot != b.opts.metadata.folderid && a.find("span").last().append(buildGearMenu(b.opts.metadata));
+  127:         "parentfolderid" in this.opts.metadata && this.opts.metadata.folderid != this.opts.metadata.parentfolderid && this.opts.metadata.folderid != pCloudCrypto.cryptoRoot && d.append($('<a class="cheader_up mnheader" href="javascript:void(0)">' + i18n.get("UP") + "</a>").click(function() {
+  128:         "parentfolderid" in this.opts.metadata && this.opts.metadata.folderid != this.opts.metadata.parentfolderid && this.opts.metadata.folderid != pCloudCrypto.cryptoRoot && d.append($('<a class="cheader_up mnheader" href="javascript:void(0)">' +
+  129                      ["crypto", "Crypto Folder", {
+  130                          crypto: 1
+
+/home/francisco/cryptoLols/web_files/grep2.txt:
+ 1571          "pCloud Crypto is supported on any device!": "pCloud Crypto \u062f\u0631 \u0647\u0631 \u062f\u0633\u062a\u06af\u0627\u0647\u06cc \u0642\u0627\u0628\u0644 \u0627\u0633\u062a\u0641\u0627\u062f\u0647 \u0627\u0633\u062a !",
+ 1572          "Download the pCloud app and start encrypting your files": "\u0628\u0631\u0646\u0627\u0645\u06c0 \u06a9\u0627\u0631\u0628\u0631\u062f\u06cc pCloud \u0631\u0627 \u062f\u0627\u0646\u0644\u0648\u062f \u06a9\u0646\u06cc\u062f \u0648 \u0634\u0631\u0648\u0639 \u0628\u0647 \u0631\u0645\u0632\u06af\u0630\u0627\u0631\u06cc \u0641\u0627\u06cc\u0644\u200c\u0647\u0627\u06cc\u062a\u0627\u0646 \u06a9\u0646\u06cc\u062f",
+ 1573:         this.uploads[a].encuploadid = pCloudCryptoUpload.uploadFile({
+ 1574:         this.uploads[a].crypto ? -1 != this.uploads[a].encuploadid && pCloudCryptoUpload.abort(this.uploads[a].encuploadid) : this.uploads[a].xhr ? this.uploads[a].xhr.abort() : (this.uploads[a].iframe && this.uploads[a].iframe.remove(), this.uploads[a].form && this.uploads[a].form.remove());
+ 1575:         HFN.config.hasCrypto() && pCloudCrypto.lock();
+ 1576:                 b.cryptosetup != a.userinfo.cryptosetup && (HFN.initGoogleAnalytics(), a.userinfo.cryptosetup || (pCrypt.locked || pCloudCrypto.lock(), $.bbq.pushState({
+ 1577:             pCloudCrypto.lock();
+ 1578:             d.key && pCloudCrypto.saveKey(d.metadata.id, d.key);
+ 1579                      ["pub_copy", "/mn/copy-dark.png", __("Copy to my pCloud"), "/mn/copy-dark.png"],
+ 1580:                     1 == c.length && c[0].encrypted ? pCloudCrypto.initFileDownload(c[0]) : 1 == c.length && c[0].isfolder ? HFN.initDownloadArchive() : HFN.previewGeneric(c[0], $.bbq.getState("code"));
+ 1581:                     1 == c.length && c[0].encrypted ? pCloudCrypto.initFileDownload(c[0]) : 1 == c.length && c[0].isfolder ? HFN.initDownloadArchive() : HFN.previewGeneric(c[0],
+ 1582                          HFN.initLoginRegModal("Log in to your pCloud", function() {
+ 1583                          __("Copy to my pCloud")
+ 1584                                      HFN.initLoginRegModal("Log in to your pCloud", function() {
+ 1585:                     a.encrypted ? pCloudCrypto.asyncDecryptMeta(a, function(a) {
+ 1586:                         pCloudCrypto.asyncEncryptMeta({
+ 1587:                     pCloudCrypto.asyncEncryptMeta({
+ 1588                  title: i18n.get("pCloud Mobile")
+ 1589                  title: i18n.get("pCloud Clients")
+ ....
+ 1597                                      b.playlistObj && b.playlistObj.name && (c = "Check Out My Playlist on pCloud " + b.playlistObj.name);
+ 1598                                          description: "With pCloud I can share all my photos and videos with all of my friends on Facebook. Join me and start sharing!",
+ 1599:                 pCloudCrypto.createCryptoFolder(function(b) {
+ 1600:                     pCloudCrypto.saveKey("d" + d[a], b.key)
+ 1601:                             pCloudCrypto.asyncEncryptMeta({
+ 1602:                     pCloudCrypto.redirectfolder = a;
+ 1603:                 pCloudCrypto.saveKey(d.metadata.id, d.key);
+ 1604:             a.metadata.encrypted && (pCloudCrypto.saveKey(a.metadata.id, a.key), c.encrypted = !0);
+ 1605:                         b.encrypted ? pCloudCrypto.asyncEncryptMetaAndKey({
+ 1606:         if (a.encrypted) pCloudCrypto.initFileDownload(a);
+ 1607              d = encodeURIComponent("Hello,\r\n\r\nHere is link where you can upload files in my pCloud folder: \r\n" + a.link + "\r\n\r\nComment: \r\n" + a.comment + "\r\n\r\n");
+ 1608              window.open("https://twitter.com/intent/tweet?url=" + encodeURIComponent(a.link) + "&text=pCloud", "twitter-share", "width=550,height=450")
+ ....
+ 1616                  pcloud_drive: '<b><a href="https://www.pcloud.com/desktop.html" target="_blank">pCloud Drive</a></b>',
+ 1617              title: "pCloud Crypto Activated"
+ 1618:             d.key && (pCloudCrypto.saveKey(d.metadata.id, d.key), a = pCloudCrypto.encryptMetaName({
+ 1619:         return a.encrypted && a.parentfolderid ? pCloudCrypto.decryptMetaName(a) : a.name
+ 1620:         return a.encrypted && a.parentfolderid ? pCloudCrypto.getIcon(a) : a.icon
+ 1621:         return a.encrypted && a.parentfolderid ? pCloudCrypto.getCategory(a) : a.category
+ 1622              src: "https://www.surveymonkey.com/s/pCloud_Survey"
+ 1623:                 "parentfolderid" in b.opts.metadata && ("Crypto Folder" != b.opts.metadata.name || !b.opts.metadata.encrypted) && pCloudCrypto.cryptoRoot != b.opts.metadata.folderid && a.find("span").last().append(buildGearMenu(b.opts.metadata));
+ 1624:         "parentfolderid" in this.opts.metadata && this.opts.metadata.folderid != this.opts.metadata.parentfolderid && this.opts.metadata.folderid != pCloudCrypto.cryptoRoot && d.append($('<a class="cheader_up mnheader" href="javascript:void(0)">' + i18n.get("UP") + "</a>").click(function() {
+ 1625:         "parentfolderid" in this.opts.metadata && this.opts.metadata.folderid != this.opts.metadata.parentfolderid && this.opts.metadata.folderid != pCloudCrypto.cryptoRoot && d.append($('<a class="cheader_up mnheader" href="javascript:void(0)">' +
+ 1626              "").append(HFN.createIcon("folder", HFN.ICONS.LIST).addClass("ficon")).append("<b>" + htmlentities(this.opts.metadata.name) + "</b>").append(c)) : this.opts.metadata && this.opts.metadata.filter && b.append($('<div class="mobgridheader"></div>').append("<b>" + i18n.get("My pCloud") + "</b>").append('<img src="//d1q46pwrruta9x.cloudfront.net/img/bread.png">').append(HFN.left.getFilterName(this.opts.metadata.filter, this.opts.metadata.q)));
+ 1627      "publicfolders" == c.template.type ? (HFN.config.auth ? d.push('<span data-act="copytocloud"><img src="//d1q46pwrruta9x.cloudfront.net/img/drop-down-copy-over.png" class="ina1">' + i18n.get("Copy to my pCloud") + "</span>") : d.push('<span data-act="login"><img src="//d1q46pwrruta9x.cloudfront.net/img/drop-down-copy-over.png" class="ina1">' + i18n.get("Copy to my pCloud") + "</span>"), a.isfolder || $.browser.iphone || d.push('<span data-act="pubdownload"><img src="//d1q46pwrruta9x.cloudfront.net/img/drop-down-download-over.png" class="ina1" style="margin-top: -2px;">' +
+ ....
+ 1630                          HFN.initLoginRegModal("Log in to your pCloud", function() {
+ 1631                                  title: "Copy to my pCloud"
+ 1632:             if (b.encrypted) pCloudCrypto.initFileDownload(b);
+ 1633:         for (var e = 0; e < a.length; ++e) a[e].key && pCloudCrypto.saveKey(a[e].metadata.id, a[e].key), d.push(a[e].metadata);
+ 1634          "/" == a[e].name ? f.html("<b>" + i18n.get("My pCloud") + "</b>") : "Crypto Folder" == a[e].name ? f.html('<img src="/img/lock.png" width="14" height="16" class="bread-img"><b>Crypto Folder</b>') : c ? f.text(HFN.metaName(a[e])) : f.html(HFN.metaName(a[e]));
+ 1635          "/" == a[e].name ? f.html("<b>" + i18n.get("My pCloud") + "</b>") : "Crypto Folder" == a[e].name ? f.html('<img src="/img/lock.png" width="14" height="16" class="bread-img"><b>Crypto Folder</b>') : c ? f.text(a[e].name) : f.html(a[e].name);
+ ....
+ 1649                      title: "My pCloud",
+ 1650          pCloud: "CoverSafe"
+ 1651: "undefined" == typeof pCloudCrypto && (pCloudCrypto = {});var mimetypes = {
+ 1652: var pCloudCrypto = {
+ 1653:                 c = pCloudCryptoDownload.download(a, {
+ 1654:                     pCloudCryptoDownload.abort(c);
+ 1655:     pCloudCryptoDownload = {
+ 1656:                 pCloudCrypto.saveKey("f" + c.meta.fileid, d.key);
+ 1657:                 c.keys = pCloudCrypto._getKey("f" + c.meta.fileid);
+ 1658:     pCloudCryptoUpload = {
+ 1659:             b.aborted || pCloudCrypto.asyncEncryptMeta({
+ 1660:                     b.aborted || (console.log("upload save", b, d), pCloudCrypto._decryptMeta(d.metadata), b.callbacks.onProgress(b.offsets.ciphersize, b.offsets.ciphersize),
+ 1661  
+
+/home/francisco/cryptoLols/web_files/grep3.txt:
+ 1572          "pCloud Crypto is supported on any device!": "pCloud Crypto \u062f\u0631 \u0647\u0631 \u062f\u0633\u062a\u06af\u0627\u0647\u06cc \u0642\u0627\u0628\u0644 \u0627\u0633\u062a\u0641\u0627\u062f\u0647 \u0627\u0633\u062a !",
+ 1573          "Download the pCloud app and start encrypting your files": "\u0628\u0631\u0646\u0627\u0645\u06c0 \u06a9\u0627\u0631\u0628\u0631\u062f\u06cc pCloud \u0631\u0627 \u062f\u0627\u0646\u0644\u0648\u062f \u06a9\u0646\u06cc\u062f \u0648 \u0634\u0631\u0648\u0639 \u0628\u0647 \u0631\u0645\u0632\u06af\u0630\u0627\u0631\u06cc \u0641\u0627\u06cc\u0644\u200c\u0647\u0627\u06cc\u062a\u0627\u0646 \u06a9\u0646\u06cc\u062f",
+ 1574:         this.uploads[a].encuploadid = pCloudCryptoUpload.uploadFile({
+ 1575:         this.uploads[a].crypto ? -1 != this.uploads[a].encuploadid && pCloudCryptoUpload.abort(this.uploads[a].encuploadid) : this.uploads[a].xhr ? this.uploads[a].xhr.abort() : (this.uploads[a].iframe && this.uploads[a].iframe.remove(), this.uploads[a].form && this.uploads[a].form.remove());
+ 1576:         HFN.config.hasCrypto() && pCloudCrypto.lock();
+ 1577:                 b.cryptosetup != a.userinfo.cryptosetup && (HFN.initGoogleAnalytics(), a.userinfo.cryptosetup || (pCrypt.locked || pCloudCrypto.lock(), $.bbq.pushState({
+ 1578:             pCloudCrypto.lock();
+ 1579:             d.key && pCloudCrypto.saveKey(d.metadata.id, d.key);
+ 1580                      ["pub_copy", "/mn/copy-dark.png", __("Copy to my pCloud"), "/mn/copy-dark.png"],
+ 1581:                     1 == c.length && c[0].encrypted ? pCloudCrypto.initFileDownload(c[0]) : 1 == c.length && c[0].isfolder ? HFN.initDownloadArchive() : HFN.previewGeneric(c[0], $.bbq.getState("code"));
+ 1582:                     1 == c.length && c[0].encrypted ? pCloudCrypto.initFileDownload(c[0]) : 1 == c.length && c[0].isfolder ? HFN.initDownloadArchive() : HFN.previewGeneric(c[0],
+ 1583                          HFN.initLoginRegModal("Log in to your pCloud", function() {
+ 1584                          __("Copy to my pCloud")
+ 1585                                      HFN.initLoginRegModal("Log in to your pCloud", function() {
+ 1586:                     a.encrypted ? pCloudCrypto.asyncDecryptMeta(a, function(a) {
+ 1587:                         pCloudCrypto.asyncEncryptMeta({
+ 1588:                     pCloudCrypto.asyncEncryptMeta({
+ 1589                  title: i18n.get("pCloud Mobile")
+ 1590                  title: i18n.get("pCloud Clients")
+ ....
+ 1598                                      b.playlistObj && b.playlistObj.name && (c = "Check Out My Playlist on pCloud " + b.playlistObj.name);
+ 1599                                          description: "With pCloud I can share all my photos and videos with all of my friends on Facebook. Join me and start sharing!",
+ 1600:                 pCloudCrypto.createCryptoFolder(function(b) {
+ 1601:                     pCloudCrypto.saveKey("d" + d[a], b.key)
+ 1602:                             pCloudCrypto.asyncEncryptMeta({
+ 1603:                     pCloudCrypto.redirectfolder = a;
+ 1604:                 pCloudCrypto.saveKey(d.metadata.id, d.key);
+ 1605:             a.metadata.encrypted && (pCloudCrypto.saveKey(a.metadata.id, a.key), c.encrypted = !0);
+ 1606:                         b.encrypted ? pCloudCrypto.asyncEncryptMetaAndKey({
+ 1607:         if (a.encrypted) pCloudCrypto.initFileDownload(a);
+ 1608              d = encodeURIComponent("Hello,\r\n\r\nHere is link where you can upload files in my pCloud folder: \r\n" + a.link + "\r\n\r\nComment: \r\n" + a.comment + "\r\n\r\n");
+ 1609              window.open("https://twitter.com/intent/tweet?url=" + encodeURIComponent(a.link) + "&text=pCloud", "twitter-share", "width=550,height=450")
+ ....
+ 1617                  pcloud_drive: '<b><a href="https://www.pcloud.com/desktop.html" target="_blank">pCloud Drive</a></b>',
+ 1618              title: "pCloud Crypto Activated"
+ 1619:             d.key && (pCloudCrypto.saveKey(d.metadata.id, d.key), a = pCloudCrypto.encryptMetaName({
+ 1620:         return a.encrypted && a.parentfolderid ? pCloudCrypto.decryptMetaName(a) : a.name
+ 1621:         return a.encrypted && a.parentfolderid ? pCloudCrypto.getIcon(a) : a.icon
+ 1622:         return a.encrypted && a.parentfolderid ? pCloudCrypto.getCategory(a) : a.category
+ 1623              src: "https://www.surveymonkey.com/s/pCloud_Survey"
+ 1624:                 "parentfolderid" in b.opts.metadata && ("Crypto Folder" != b.opts.metadata.name || !b.opts.metadata.encrypted) && pCloudCrypto.cryptoRoot != b.opts.metadata.folderid && a.find("span").last().append(buildGearMenu(b.opts.metadata));
+ 1625:         "parentfolderid" in this.opts.metadata && this.opts.metadata.folderid != this.opts.metadata.parentfolderid && this.opts.metadata.folderid != pCloudCrypto.cryptoRoot && d.append($('<a class="cheader_up mnheader" href="javascript:void(0)">' + i18n.get("UP") + "</a>").click(function() {
+ 1626:         "parentfolderid" in this.opts.metadata && this.opts.metadata.folderid != this.opts.metadata.parentfolderid && this.opts.metadata.folderid != pCloudCrypto.cryptoRoot && d.append($('<a class="cheader_up mnheader" href="javascript:void(0)">' +
+ 1627              "").append(HFN.createIcon("folder", HFN.ICONS.LIST).addClass("ficon")).append("<b>" + htmlentities(this.opts.metadata.name) + "</b>").append(c)) : this.opts.metadata && this.opts.metadata.filter && b.append($('<div class="mobgridheader"></div>').append("<b>" + i18n.get("My pCloud") + "</b>").append('<img src="//d1q46pwrruta9x.cloudfront.net/img/bread.png">').append(HFN.left.getFilterName(this.opts.metadata.filter, this.opts.metadata.q)));
+ 1628      "publicfolders" == c.template.type ? (HFN.config.auth ? d.push('<span data-act="copytocloud"><img src="//d1q46pwrruta9x.cloudfront.net/img/drop-down-copy-over.png" class="ina1">' + i18n.get("Copy to my pCloud") + "</span>") : d.push('<span data-act="login"><img src="//d1q46pwrruta9x.cloudfront.net/img/drop-down-copy-over.png" class="ina1">' + i18n.get("Copy to my pCloud") + "</span>"), a.isfolder || $.browser.iphone || d.push('<span data-act="pubdownload"><img src="//d1q46pwrruta9x.cloudfront.net/img/drop-down-download-over.png" class="ina1" style="margin-top: -2px;">' +
+ ....
+ 1631                          HFN.initLoginRegModal("Log in to your pCloud", function() {
+ 1632                                  title: "Copy to my pCloud"
+ 1633:             if (b.encrypted) pCloudCrypto.initFileDownload(b);
+ 1634:         for (var e = 0; e < a.length; ++e) a[e].key && pCloudCrypto.saveKey(a[e].metadata.id, a[e].key), d.push(a[e].metadata);
+ 1635          "/" == a[e].name ? f.html("<b>" + i18n.get("My pCloud") + "</b>") : "Crypto Folder" == a[e].name ? f.html('<img src="/img/lock.png" width="14" height="16" class="bread-img"><b>Crypto Folder</b>') : c ? f.text(HFN.metaName(a[e])) : f.html(HFN.metaName(a[e]));
+ 1636          "/" == a[e].name ? f.html("<b>" + i18n.get("My pCloud") + "</b>") : "Crypto Folder" == a[e].name ? f.html('<img src="/img/lock.png" width="14" height="16" class="bread-img"><b>Crypto Folder</b>') : c ? f.text(a[e].name) : f.html(a[e].name);
+ ....
+ 1650                      title: "My pCloud",
+ 1651          pCloud: "CoverSafe"
+ 1652: "undefined" == typeof pCloudCrypto && (pCloudCrypto = {});var mimetypes = {
+ 1653: var pCloudCrypto = {
+ 1654:                 c = pCloudCryptoDownload.download(a, {
+ 1655:                     pCloudCryptoDownload.abort(c);
+ 1656:     pCloudCryptoDownload = {
+ 1657:                 pCloudCrypto.saveKey("f" + c.meta.fileid, d.key);
+ 1658:                 c.keys = pCloudCrypto._getKey("f" + c.meta.fileid);
+ 1659:     pCloudCryptoUpload = {
+ 1660:             b.aborted || pCloudCrypto.asyncEncryptMeta({
+ 1661:                     b.aborted || (console.log("upload save", b, d), pCloudCrypto._decryptMeta(d.metadata), b.callbacks.onProgress(b.offsets.ciphersize, b.offsets.ciphersize),
+ 1662  
+
+/home/francisco/cryptoLols/web_files/jscommon.js:
+ 5509          var b = this.uploads[a],
+ 5510              c = this;
+ 5511:         this.uploads[a].encuploadid = pCloudCryptoUpload.uploadFile({
+ 5512              file: b.file,
+ 5513              folderid: b.folderid,
+ ....
+ 5955      uploadAbort: function(a) {
+ 5956          this.uploads[a].status = 3;
+ 5957:         this.uploads[a].crypto ? -1 != this.uploads[a].encuploadid && pCloudCryptoUpload.abort(this.uploads[a].encuploadid) : this.uploads[a].xhr ? this.uploads[a].xhr.abort() : (this.uploads[a].iframe && this.uploads[a].iframe.remove(), this.uploads[a].form && this.uploads[a].form.remove());
+ 5958          clearTimeout(this.uploads[a].timeout);
+ 5959          this.uploads[a].timeout = -1;
+
+/home/francisco/cryptoLols/web_files/main.js:
+ 1296      logout: function() {
+ 1297          HFN.apiMethod("logout", {}, function() {});
+ 1298:         HFN.config.hasCrypto() && pCloudCrypto.lock();
+ 1299          this.config.auth = "";
+ 1300          this.config.user = {};
+ ....
+ 2263                  "space" == HFN.pages.current && spacelist.refresh();
+ 2264                  "bonussteps" == HFN.pages.current && steps.load();
+ 2265:                 b.cryptosetup != a.userinfo.cryptosetup && (HFN.initGoogleAnalytics(), a.userinfo.cryptosetup || (pCrypt.locked || pCloudCrypto.lock(), $.bbq.pushState({
+ 2266                      page: "crypto"
+ 2267                  }, 2)))
+ ....
+ 2518          $(".uplplc").empty().append($('<div class="button upload_button lock_crypto_btn"><img src="//d1q46pwrruta9x.cloudfront.net/img/crypto/lock_crypto.png"> ' + i18n.get("Lock Crypto") + "</div>").click(function(a) {
+ 2519              a.stopPropagation();
+ 2520:             pCloudCrypto.lock();
+ 2521              HFN.cache.expireMatch("listfolder");
+ 2522              $.bbq.pushState({
+ ....
+ 2602              getkey: 1
+ 2603          }, function(d) {
+ 2604:             d.key && pCloudCrypto.saveKey(d.metadata.id, d.key);
+ 2605              var e = {};
+ 2606              HFN.buildTreeLookup(d.metadata, e);
+ ....
+ 3150                      break;
+ 3151                  case "download":
+ 3152:                     1 == c.length && c[0].encrypted ? pCloudCrypto.initFileDownload(c[0]) : 1 == c.length && c[0].isfolder ? HFN.initDownloadArchive() : HFN.previewGeneric(c[0], $.bbq.getState("code"));
+ 3153                      break;
+ 3154                  case "download_file":
+ 3155:                     1 == c.length && c[0].encrypted ? pCloudCrypto.initFileDownload(c[0]) : 1 == c.length && c[0].isfolder ? HFN.initDownloadArchive() : HFN.previewGeneric(c[0],
+ 3156                          $.bbq.getState("code"));
+ 3157                      break;
+ ....
+ 3742                  var e = function(a,
+ 3743                      b) {
+ 3744:                     a.encrypted ? pCloudCrypto.asyncDecryptMeta(a, function(a) {
+ 3745                          console.log("got decrypted", a);
+ 3746:                         pCloudCrypto.asyncEncryptMeta({
+ 3747                              name: a,
+ 3748                              parentfolderid: c
+ ....
+ 3835                      a()
+ 3836                  }, a.encrypted && (b = function(b) {
+ 3837:                     pCloudCrypto.asyncEncryptMeta({
+ 3838                              name: l.toname,
+ 3839                              parentfolderid: a.parentfolderid
+ ....
+ 6541          }, {
+ 6542              errorCallback: function() {
+ 6543:                 pCloudCrypto.createCryptoFolder(function(b) {
+ 6544                      a(b)
+ 6545                  })
+ ....
+ 6570                      folderid: d[a]
+ 6571                  }, function(b) {
+ 6572:                     pCloudCrypto.saveKey("d" + d[a], b.key)
+ 6573                  }))
+ 6574              })(a);
+ ....
+ 6705                              };
+ 6706                          a.encrypted && (q = function(c) {
+ 6707:                             pCloudCrypto.asyncEncryptMeta({
+ 6708                                  name: b,
+ 6709                                  parentfolderid: a.folderid
+ ....
+ 7193              if (d.metadata.encrypted) {
+ 7194                  if (pCrypt.locked) {
+ 7195:                     pCloudCrypto.redirectfolder = a;
+ 7196                      $.bbq.pushState({
+ 7197                          page: "crypto",
+ ....
+ 7201                      return
+ 7202                  }
+ 7203:                 pCloudCrypto.saveKey(d.metadata.id, d.key);
+ 7204                  c.encrypted = !0
+ 7205              }
+ ....
+ 7238              iconformat: "id"
+ 7239          }, function(a) {
+ 7240:             a.metadata.encrypted && (pCloudCrypto.saveKey(a.metadata.id, a.key), c.encrypted = !0);
+ 7241              e.cacheTree(a.metadata, "encrypted", HFN.data.fflookup);
+ 7242              g(a.metadata);
+ ....
+ 7440                      };
+ 7441                      (function(d) {
+ 7442:                         b.encrypted ? pCloudCrypto.asyncEncryptMetaAndKey({
+ 7443                              parentfolderid: a,
+ 7444                              name: c
+ ....
+ 7533          console.log("PREVIEW FILE #2",
+ 7534              a.category);
+ 7535:         if (a.encrypted) pCloudCrypto.initFileDownload(a);
+ 7536          else switch (a.category) {
+ 7537              case HFN.CATEGORY.IMAGE:
+ ....
+ 11568              getkey: 1
+ 11569          }, function(d) {
+ 11570:             d.key && (pCloudCrypto.saveKey(d.metadata.id, d.key), a = pCloudCrypto.encryptMetaName({
+ 11571                  name: a,
+ 11572                  parentfolderid: b
+ .....
+ 11675      },
+ 11676      metaName: function(a) {
+ 11677:         return a.encrypted && a.parentfolderid ? pCloudCrypto.decryptMetaName(a) : a.name
+ 11678      },
+ 11679      metaIcon: function(a) {
+ 11680:         return a.encrypted && a.parentfolderid ? pCloudCrypto.getIcon(a) : a.icon
+ 11681      },
+ 11682      metaCategory: function(a) {
+ 11683:         return a.encrypted && a.parentfolderid ? pCloudCrypto.getCategory(a) : a.category
+ 11684      },
+ 11685      metaSize: function(a) {
+ .....
+ 12652              folderBreadcrumb(this.opts.metadata.folderid, function(c) {
+ 12653                  a.append(buildBreadcrumb(c));
+ 12654:                 "parentfolderid" in b.opts.metadata && ("Crypto Folder" != b.opts.metadata.name || !b.opts.metadata.encrypted) && pCloudCrypto.cryptoRoot != b.opts.metadata.folderid && a.find("span").last().append(buildGearMenu(b.opts.metadata));
+ 12655                  console.log("BUILT GEAR")
+ 12656              })
+ .....
+ 12669          var d = $('<div class="controls"></div>'),
+ 12670              e = this;
+ 12671:         "parentfolderid" in this.opts.metadata && this.opts.metadata.folderid != this.opts.metadata.parentfolderid && this.opts.metadata.folderid != pCloudCrypto.cryptoRoot && d.append($('<a class="cheader_up mnheader" href="javascript:void(0)">' + i18n.get("UP") + "</a>").click(function() {
+ 12672              $.bbq.pushState({
+ 12673                  folder: e.opts.metadata.parentfolderid
+ .....
+ 12788          var d = $('<div class="controls"></div>'),
+ 12789              e = this;
+ 12790:         "parentfolderid" in this.opts.metadata && this.opts.metadata.folderid != this.opts.metadata.parentfolderid && this.opts.metadata.folderid != pCloudCrypto.cryptoRoot && d.append($('<a class="cheader_up mnheader" href="javascript:void(0)">' +
+ 12791              i18n.get("UP") + "</a>").click(function() {
+ 12792              $.bbq.pushState({
+ .....
+ 15171              break;
+ 15172          case "download":
+ 15173:             if (b.encrypted) pCloudCrypto.initFileDownload(b);
+ 15174              else if ($.browser.msie && -1 == versionCompare($.browser.version, "10.0")) HFN.downloadFile(b.fileid);
+ 15175              else {
+ .....
+ 16205          var d = [];
+ 16206          a = a.breadcrumb;
+ 16207:         for (var e = 0; e < a.length; ++e) a[e].key && pCloudCrypto.saveKey(a[e].metadata.id, a[e].key), d.push(a[e].metadata);
+ 16208          if (d[d.length - 1].encrypted) {
+ 16209              do d.shift(); while (!d[0].encrypted)
+ .....
+ 18081      })
+ 18082  }
+ 18083: "undefined" == typeof pCloudCrypto && (pCloudCrypto = {});
+
+/home/francisco/cryptoLols/web_files/pweb.js:
+  606      }
+  607  });
+  608: var pCloudCrypto = {
+  609          cekKeys: {},
+  610          cekKeysEnc: {},
+  ...
+  762                      c;
+  763                  b.find(".txt").text(__("Preparing", "Preparing") + "...");
+  764:                 c = pCloudCryptoDownload.download(a, {
+  765                      onBegin: function() {
+  766                          b.find(".txt").text(__("download_and_decrypt", "Download and Decrypt"))
+  ...
+  785                  });
+  786                  b.find(".butt-area").append($('<div class="button linebut centerbut modernbut darkbut"></div>').text(__("cancel_download", "Cancel Download")).on("click", function() {
+  787:                     pCloudCryptoDownload.abort(c);
+  788                      HFN.message(__("download_stopped",
+  789                          "Download Stopped."));
+  ...
+  802          }
+  803      },
+  804:     pCloudCryptoDownload = {
+  805          defaultOpts: {
+  806              onBegin: function() {},
+  ...
+  818                  getkey: 1
+  819              }, function(d) {
+  820:                 pCloudCrypto.saveKey("f" + c.meta.fileid, d.key);
+  821                  c.url =
+  822                      HFN.prepUrl(d);
+  ...
+  824                  c.progress.size = d.size;
+  825                  c.offsets = pCrypt.cipherOffsets(d.size);
+  826:                 c.keys = pCloudCrypto._getKey("f" + c.meta.fileid);
+  827                  c.opts.onBegin();
+  828                  console.log("begin", c.downloaddata.authdata);
+  ...
+ 1037          }
+ 1038      },
+ 1039:     pCloudCryptoUpload = {
+ 1040          cryptoRoot: null,
+ 1041          list: [],
+ ....
+ 1211              var b = this.list[a],
+ 1212                  c = this;
+ 1213:             b.aborted || pCloudCrypto.asyncEncryptMeta({
+ 1214                  name: b.name,
+ 1215                  parentfolderid: b.folderid
+ ....
+ 1222                      key: b.filekeyEnc
+ 1223                  }, function(d) {
+ 1224:                     b.aborted || (console.log("upload save", b, d), pCloudCrypto._decryptMeta(d.metadata), b.callbacks.onProgress(b.offsets.ciphersize, b.offsets.ciphersize),
+ 1225                          b.callbacks.onFinish(d), b.uploaded = !0, c._clean(a))
+ 1226                  }, {
+
+130 matches across 7 files

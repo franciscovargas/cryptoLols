@@ -1,0 +1,274 @@
+        'file is copied. <a href="#page=filemanager&folder=0">open folder</a>': 'File is copied. <a href="#page=filemanager&folder=0">Open Folder</a>',
+        "VAT#": "VAT#",
+        'File is copied. <a href="#page=filemanager&folder=0">Open Folder</a>': 'File is copied. <a href="#page=filemanager&folder=0">Open Folder</a>',
+        "Invoice #": "Invoice #",
+        'file is copied. <a href="#page=filemanager&folder=0">open folder</a>': '\u0424\u0430\u0439\u043b\u044a\u0442 \u0435 \u043a\u043e\u043f\u0438\u0440\u0430\u043d. <a href="#page=filemanager&folder=0">\u041e\u0442\u0432\u043e\u0440\u0438 \u043f\u0430\u043f\u043a\u0430</a>',
+        "VAT#": "\u0414\u0414\u0421#",
+        'File is copied. <a href="#page=filemanager&folder=0">Open Folder</a>': '\u0424\u0430\u0439\u043b\u044a\u0442 \u0435 \u043a\u043e\u043f\u0438\u0440\u0430\u043d.  <a href="#page=filemanager&folder=0">\u041e\u0442\u0432\u043e\u0440\u0438 \u043f\u0430\u043f\u043a\u0430</a>',
+        "Invoice #": "\u0424\u0430\u043a\u0442\u0443\u0440\u0430 # ",
+        'file is copied. <a href="#page=filemanager&folder=0">open folder</a>': "Archivo copiado. Abra Carpeta",
+        "VAT#": "Datos fiscales",
+        'File is copied. <a href="#page=filemanager&folder=0">Open Folder</a>': "Archivo copiado. Abra Carpeta",
+        "Invoice #": "Factura #",
+        'file is copied. <a href="#page=filemanager&folder=0">open folder</a>': "\u0424\u0430\u0439\u043b \u0441\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d. \u041e\u0442\u043a\u0440\u044b\u0442\u044c \u043f\u0430\u043f\u043a\u0443",
+        "VAT#": "\u041d\u0414\u0421#",
+        'File is copied. <a href="#page=filemanager&folder=0">Open Folder</a>': "\u0424\u0430\u0439\u043b \u0441\u043a\u043e\u043f\u0438\u0440\u043e\u0432\u0430\u043d. \u041e\u0442\u043a\u0440\u044b\u0442\u044c \u043f\u0430\u043f\u043a\u0443",
+        "Invoice #": "\u0421\u0447\u0451\u0442 #",
+        'file is copied. <a href="#page=filemanager&folder=0">open folder</a>': 'Arquivo copiado.<a href="#page=filemanager&folder=0">Abrir Pasta</a>',
+        "VAT#": "IVA#",
+        'File is copied. <a href="#page=filemanager&folder=0">Open Folder</a>': 'Arquivo copiado. <a href="#page=filemanager&folder=0">Abrir Pasta</a>',
+        "Invoice #": "Fatura #",
+        'file is copied. <a href="#page=filemanager&folder=0">open folder</a>': "Fichier copi\u00e9. Ouvrir le dossier",
+        "VAT#": "TVA",
+        'File is copied. <a href="#page=filemanager&folder=0">Open Folder</a>': "Fichier copi\u00e9. Ouvrir le dossier",
+        "Invoice #": "Facture #",
+        'file is copied. <a href="#page=filemanager&folder=0">open folder</a>': "Il file \u00e8 copiato. Apri Cartella",
+        "VAT#": "IVA#",
+        'File is copied. <a href="#page=filemanager&folder=0">Open Folder</a>': "Il file \u00e8 copiato. Apri Cartella",
+        "Invoice #": "Fattura #",
+        'file is copied. <a href="#page=filemanager&folder=0">open folder</a>': "Datei wird kopiert. Ordner \u00f6ffnen.",
+        "VAT#": "VAT'#",
+        'File is copied. <a href="#page=filemanager&folder=0">Open Folder</a>': "Datei wird kopiert. Ordner \u00f6ffnen.",
+        "Invoice #": "Rechnung #",
+        'file is copied. <a href="#page=filemanager&folder=0">open folder</a>': 'Dosya kopyaland\u0131. <a href="#page=filemanager&folder=0">Klas\u00f6r A\u00e7</a>',
+        "VAT#": "KDV#",
+        'File is copied. <a href="#page=filemanager&folder=0">Open Folder</a>': 'Dosya kopyaland\u0131.<a href="#page=filemanager&folder=0">Klas\u00f6r\u00fc A\u00e7</a>',
+        "Invoice #": "Fatura #",
+        'file is copied. <a href="#page=filemanager&folder=0">open folder</a>': "\u6587\u4ef6\u5df2\u8907\u88fd\u3002\u6253\u958b\u6a94\u6848\u593e",
+        "VAT#": "\u589e\u503c\u7a05\u7387",
+        'File is copied. <a href="#page=filemanager&folder=0">Open Folder</a>': "\u6587\u4ef6\u5df2\u8907\u88fd\u3002\u6253\u958b\u6a94\u6848\u593e",
+        "Invoice #": "\u767c\u7968\u865f\u78bc",
+        'file is copied. <a href="#page=filemanager&folder=0">open folder</a>': '\u0641\u0627\u06cc\u0644 \u06a9\u067e\u06cc \u0634\u062f. <a href="#page=filemanager&folder=0">\u0628\u0627\u0632 \u06a9\u0631\u062f\u0646 \u067e\u0648\u0634\u0647</a>',
+        "VAT#": "\u0634\u0645\u0627\u0631\u0647\u0654 \u0645\u0627\u0644\u06cc\u0627\u062a \u0628\u0631 \u0627\u0631\u0632\u0634 \u0627\u0641\u0632\u0648\u062f\u0647",
+        'File is copied. <a href="#page=filemanager&folder=0">Open Folder</a>': '\u0641\u0627\u06cc\u0644 \u06a9\u067e\u06cc \u0634\u062f\u0647\u200c\u0627\u0633\u062a. <a href="#page=filemanager&folder=0">\u0628\u0627\u0632 \u06a9\u0631\u062f\u0646 \u067e\u0648\u0634\u0647</a>',
+        "Invoice #": "\u0634\u0645\u0627\u0631\u0647\u0654 \u0628\u0631\u06af \u062e\u0631\u06cc\u062f",
+            "rgba(0, 0, 0, 0)" != this.highlightCss["background-color"] && "transparent" != this.highlightCss["background-color"] || $(a.highlight).css("background-color", "#fff");
+            $("#hlTips-overlay-2").remove();
+        $("#hlTips-button-close").remove();
+        $("#hlTips-overlay-2, #hlTips-button-close").remove();
+            return "#" + this.templateOpt.id
+                return "#" + this.templateOpt.id
+        Z = /^(?:\s*(<[\w\W]+>)[^>]*|#([\w-]*))$/,
+            Ga = "(?:\\\\.|[\\w-]|[^\\x00-\\xa0])+".replace("w", "w#"),
+                ID: /^#((?:\\.|[\w-]|[^\x00-\xa0])+)/,
+            sa = /^(?:#([\w-]+)|(\w+)|\.([\w-]+))$/,
+            return a.innerHTML = "<a href='#'></a>", "#" === a.firstChild.getAttribute("href")
+    var Ib = /^.[^:#\[\.,]*$/,
+        Rb = /<|&#?\w+;/,
+        cc = /#.*$/,
+        Bb = /^([\w.+-]+:)(?:\/\/([^\/?#:]*)(?::(\d+)|)|)/,
+            return "string" == typeof a && a && (a.split("#")[0].split("?"), d = a.slice(0, a.lastIndexOf("/") + 1)), d
+    for (var a = 0; a < arguments.length; ++a) console.log("#" + a, arguments[a])
+            "string" == typeof a.el && -1 != ["#", "."].indexOf(a.el.charAt(0)) && (a.el = $(a.el));
+        f !== r ? (e = k.match(d ? /^([^#]*)\#?(.*)$/ : /^([^#?]*)\??([^#]*)(#?.*)/), k = e[3] || "", 2 === g && c(f) ? f = f.replace(d ? U : Y, "") : (q = u(e[2]), f = c(f) ? u[d ? F : J](f) : f, f = 2 === g ? f : 1 === g ? a.extend({}, f, q) : a.extend({}, q, f), f = v(f), d && (f = f.replace(O, n))), d = e[1] + (d ? "#" : f || !e[1] ? "?" : "") + f + k) : d = e(k !== r ? k : b[D][K]);
+        Y = /^.*\?|#.*$/g,
+        U = /^.*\#/,
+        return a.replace(/(?:^[^?#]*\?([^#]*).*$)?.*/,
+        return a.replace(/^[^#]*#?(.*)$/, "$1")
+            /^#/.test(a) && d === r && (d = 2);
+        b[D][K] = e + (/#/.test(e) ? "" : "#")
+        return a.replace(/^[^#]*#?(.*)$/, "$1")
+                        b[g].hash = "#" + a
+                    c !== e ? (k(e = c, f), a(b).trigger("hashchange")) : f !== e && (b[g][r] = b[g][r].replace(/#.*/, "") + "#" + f);
+            return a = a || location.href, "#" + a.replace(/^[^#]*#?(.*)$/, "$1")
+                d !== t ? (u(t = d, c), a(b).trigger(s)) : c !== t && (location.href = location.href.replace(/#.*/, "") + c);
+                        '&shy;<style media="' + a + '"> #mq-test-1 { width: 42px; }</style>', f.insertBefore(p, h), c = 42 === u.offsetWidth, f.removeChild(p), {
+        return "area" === h ? (b = d.parentNode, g = b.name, d.href && g && "map" === b.nodeName.toLowerCase() ? (f = a("img[usemap='#" + g + "']")[0], !!f && c(f)) : !1) : (/input|select|textarea|button|object/.test(h) ? !d.disabled : "a" === h ? d.href || e : e) && c(d)
+                        a("<td>&#160;</td>", d.document[0]).attr("colspan", a(this).attr("colspan") || 1).appendTo(c)
+                (d[0].id !== a.datepicker._mainDivId && 0 === d.parents("#" + a.datepicker._mainDivId).length && !(d.hasClass(a.datepicker.markerClassName) || d.closest("." + a.datepicker._triggerClass).length || !a.datepicker._datepickerShowing || a.datepicker._inDialog && a.blockUI) || d.hasClass(a.datepicker.markerClassName) && a.datepicker._curInst !== e) && a.datepicker._hideDatepicker()
+                b = "#" + d.id.replace(/\\\\/g, "\\");
+                            " ui-state-disabled" : "") + (ha && !u ? "" : " " + P[1] + (G.getTime() === ta.getTime() ? " " + this._currentClass : "") + (G.getTime() === ia.getTime() ? " ui-datepicker-today" : "")) + "'" + (ha && !u || !P[2] ? "" : " title='" + P[2].replace(/'/g, "&#39;") + "'") + (ka ? "" : " data-handler='selectDay' data-event='click' data-month='" + G.getMonth() + "' data-year='" + G.getFullYear() + "'") + ">" + (ha && !u ? "&#xa0;" : ka ? "<span class='ui-state-default'>" + G.getDate() + "</span>" : "<a class='ui-state-default" + (G.getTime() === ia.getTime() ? " ui-state-highlight" : "") +
+                            (G.getTime() === ta.getTime() ? " ui-state-active" : "") + (ha ? " ui-priority-secondary" : "") + "' href='#'>" + G.getDate() + "</a>") + "</td>", G.setDate(G.getDate() + 1), G = this._daylightSavingAdjust(G);
+            } if (y || (I += C + (!h && v && w ? "" : "&#xa0;")), !a.yearshtml)
+            return I += this._get(a, "yearSuffix"), y && (I += (!h && v && w ? "" : "&#xa0;") + C), I += "</div>"
+        0 === a("#" + a.datepicker._mainDivId).length && a("body").append(a.datepicker.dpDiv);
+                re: /#([a-f0-9]{2})([a-f0-9]{2})([a-f0-9]{2})/,
+                re: /#([a-f0-9])([a-f0-9])([a-f0-9])/,
+                    c)), "#" + a.map(e, function(a) {
+            aqua: "#00ffff",
+            black: "#000000",
+            blue: "#0000ff",
+            fuchsia: "#ff00ff",
+            gray: "#808080",
+            green: "#008000",
+            lime: "#00ff00",
+            maroon: "#800000",
+            navy: "#000080",
+            olive: "#808000",
+            purple: "#800080",
+            red: "#ff0000",
+            silver: "#c0c0c0",
+            teal: "#008080",
+            white: "#ffffff",
+            yellow: "#ffff00",
+            _default: "#ffffff"
+            backgroundColor: d.color || "#ffff99"
+                mejs.MediaFeatures.isIE ? (a = document.createElement("div"), v.appendChild(a), a.outerHTML = '<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="//download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab" id="' + s + '" width="' + g + '" height="' + r + '" class="mejs-shim"><param name="movie" value="' + b.pluginPath + b.flashName + "?x=" + new Date + '" /><param name="flashvars" value="' + h.join("&amp;") + '" /><param name="quality" value="high" /><param name="bgcolor" value="#000000" /><param name="wmode" value="transparent" /><param name="allowScriptAccess" value="always" /><param name="allowFullScreen" value="true" /><param name="scale" value="default" /></object>') :
+                    v.innerHTML = '<embed id="' + s + '" name="' + s + '" play="true" loop="false" quality="high" bgcolor="#000000" wmode="transparent" allowScriptAccess="always" allowFullScreen="true" type="application/x-shockwave-flash" pluginspage="//www.macromedia.com/go/getflashplayer" src="' + b.pluginPath + b.flashName + '" flashvars="' + h.join("&") + '" width="' + g + '" height="' + r + '" scale="default"class="mejs-shim"></embed>';
+            backgroundColor: "#000000",
+            cssSelectorAncestor: "#jp_container_1",
+            this.internal.poster.jq = a("#" + this.internal.poster.id);
+            this.html.used && (this.html.audio.available && (this._addHtmlEventListeners(this.htmlElement.audio, this.html.audio), this.element.append(this.htmlElement.audio), this.internal.audio.jq = a("#" + this.internal.audio.id)), this.html.video.available && (this._addHtmlEventListeners(this.htmlElement.video, this.html.video), this.element.append(this.htmlElement.video),
+                this.internal.video.jq = a("#" + this.internal.video.id), this.status.nativeVideoControls ? this.internal.video.jq.css({
+                    "'": "&#x27;",
+                    "`": "&#x60;"
+                            rules: [/^(?:[^\x00]*?(?=(\{\{)))/, /^(?:[^\x00]+)/, /^(?:[^\x00]{2,}?(?=(\{\{|\\\{\{|\\\\\{\{|$)))/, /^(?:[\s\S]*?--\}\})/, /^(?:\{\{(~)?>)/, /^(?:\{\{(~)?#)/, /^(?:\{\{(~)?\/)/,
+                                /^(?:\{\{(~)?\^)/, /^(?:\{\{(~)?\s*else\b)/, /^(?:\{\{(~)?\{)/, /^(?:\{\{(~)?&)/, /^(?:\{\{!--)/, /^(?:\{\{![\s\S]*?\}\})/, /^(?:\{\{(~)?)/, /^(?:=)/, /^(?:\.\.)/, /^(?:\.(?=([=~}\s\/.])))/, /^(?:[\/.])/, /^(?:\s+)/, /^(?:\}(~)?\}\})/, /^(?:(~)?\}\})/, /^(?:"(\\["]|[^"])*")/, /^(?:'(\\[']|[^'])*')/, /^(?:@)/, /^(?:true(?=([~}\s])))/, /^(?:false(?=([~}\s])))/, /^(?:-?[0-9]+(?=([~}\s])))/, /^(?:([^\s!"#%-,\.\/;->@\[-\^`\{-~]+(?=([=~}\s\/.]))))/, /^(?:\[[^\]]*\])/, /^(?:.)/, /^(?:$)/
+                b.preventDefault(), b.stopPropagation(), b.stopImmediatePropagation(), console.log("ererer #2"))
+            0 < a.indexOf("#") && (a = a.replace(/#.*$/, ""));
+            return "string" === typeof b && isNaN(b) ? /png|gif|jpe?g/i.test(b) && 0 > b.indexOf("url") ? "url(" + b + ")" : b + e : 0 === b || "z-index" === a || "opacity" === a ? "" + b + e : /color/i.test(a) ? "#" + c.pad(b.toString(16).replace(/^0x/i, ""), 6) + e : Math.ceil(b) +
+            a = String(a).replace("#", "");
+            return "#" + a.substr(-6)
+            d = d.substring(d.lastIndexOf("/") + 1, d.length).split("?")[0].split("#")[0];
+            d = d.replace(/(#|0x)?([0-9A-F]{3,6})$/gi, "$2");
+            e.backgroundColor = "#000";
+            e.color = "#FFF";
+                                            outline: "solid 2px #0B7EF4"
+                a ? (c = a, b && (a = g("a", "display", b), g("div", "icon", a), g("div", "logo", a), c && a.setAttribute("href", l.getAbsolutePath(c))), c = "#" + b.id + " .jwdownload", b.style.width = "", b.style.height = "", d(c + "display", {
+                    g.src + '"\x3e\x3cparam name\x3d"allowfullscreen" value\x3d"true"\x3e\x3cparam name\x3d"allowscriptaccess" value\x3d"always"\x3e\x3cparam name\x3d"seamlesstabbing" value\x3d"true"\x3e\x3cparam name\x3d"wmode" value\x3d"' + n + '"\x3e\x3cparam name\x3d"bgcolor" value\x3d"#000000"\x3e\x3c/object\x3e', f = f.getElementsByTagName("object")[0], f.style.outline = "none") : (f = document.createElement("object"), f.setAttribute("type", "application/x-shockwave-flash"), f.setAttribute("data", g.src), f.setAttribute("width", "100%"),
+                    f.setAttribute("height", "100%"), f.setAttribute("bgcolor", "#000000"), f.setAttribute("id", t), f.setAttribute("name", t), f.className = "jwswf", r(f, "allowfullscreen", "true"), r(f, "allowscriptaccess", "always"), r(f, "seamlesstabbing", "true"), r(f, "wmode", n), c.parentNode.replaceChild(f, c));
+                            document.querySelector("#" + c.id + " .jwmain");
+                a || b.clearCss("#" + n.id);
+                a = $('<a href="#">' + a.title + "</a>").on("click", c.bind(a)).append('<img src="//d1q46pwrruta9x.cloudfront.net/img/flags/' + a.flag + '.png" alt="' + a.title + '">');
+        })), "pcloud" == LABEL ? ($.browser.iphone ? $(".mobbeforefooter").empty().addClass("mobhas").append(e = HFN.renderTemplate("#iOSAd", {
+            })) : $.browser.android && $(".mobbeforefooter").empty().addClass("mobhas").append(e = HFN.renderTemplate("#androidAd", {
+            e && (e.find("img").hide(), 5 < 10 * Math.random() ? e.find(".aud").show() : e.find(".vid").show())) : $("#footer-pp, #footer-ipp").remove(), $(".main").addClass("noleft"), $(".footer").hide()) : HFN.config.isWebview() && ($("html").addClass("mob"), $(".midContain").empty().append(HFN.renderTemplate("#webviewContent")), $(".cnt-mn").addClass("wv"), $(".content").addClass("wv"));
+        this.renderTemplate("#viewasbar", {
+                        [i18n.get("Login"), "#page=login"],
+                        [i18n.get("Help"), "#page=faq"],
+                        [__("footer_contact", "Contact Us"), "#page=contact"],
+                    if (b.splice(1, 0, [i18n.get("Settings"), "#page=settings", []]), b[1][2].push([__("Account"), "#page=settings&settings=tab-account"]), HFN.config.label.hasLinkedAccounts && b[1][2].push([__("Linked Accounts"), "#page=settings&settings=tab-apps"]), HFN.config.user.cryptosetup && b[1][2].push([__("Crypto"), "#page=settings&settings=tab-crypto"]), b.splice(0, 1), "pcloud" == LABEL && b.push([i18n.get("Newsletter"), "javascript:(function(){ HFN.newsletter.show();})()"]),
+                        b.push([i18n.get("Logout"), "#page=login"]), HFN.config.user.account) {
+                            e = [__("Business"), "#page=b_account", [
+                                [__("Account"), "#page=b_account"],
+                                [__("Users"), "#page=b_users"],
+                                [__("Teams"), "#page=b_teams", []]
+                            for (e[2].push([__("My Teams"), "#page=b_user&id=" + HFN.config.user.userid, []]), c = 0; c < d.teams.length; ++c) e[2][3][2].push([d.teams[c].team.name, "#page=b_team&id=" + d.teams[c].team.id]);
+                        HFN.config.user.account.permissions.log_view && e[2].push([__("Logs"), "#page=b_logs", []]);
+                    30 - $("a.upgrade").outerWidth() - 50 - 230 - 58 - 30), 80 < a && $("input#q").css("width", a + "px"));
+                (a = HFN.config.user, b = Math.min(100, Math.round(100 * (a.usedquota / a.quota))), c = HFN.renderTemplate("#spaceinfonew", {
+                    spaceinfo: HFN.renderTemplate("#spaceinfoinfo", {
+                        var c = HFN.renderTemplate("#download-clients");
+            $(".spacen .spacetxt").empty().append(HFN.renderTemplate("#spaceinfoinfo", {
+        $(".uplplc").empty().append(['<a class="button backtofilesbut" href="#page=filemanager" title="' + __("Back to Files") + '">', '<div class="cwrap">\n<img src="/img/back-files.png">', __("Back to Files"), "</div>\n</a>"].join("\n")).append("<hr>")
+                this.obj = $('<div class="panel" id="mobPanel"></div>').append(HFN.renderTemplate("#mobilePanel"));
+                this.obj.find("ul").append(HFN.renderTemplate("#mobileSpace"));
+                    href: "#"
+                    "border-bottom": "1px solid #E9E9E9"
+        var b = this.renderTemplate("#copyitems"),
+                console.log("setting done #2: ", e,
+        console.log("#4")
+            HFN.config.auth ? location.replace("#page=" + HFN.config.defaultPage) : location.replace("#page=login")
+        console.log("#1", a, q, b, r);
+        console.log("#2", a, b, m, g);
+        console.log("#3", a, b, q, r);
+            this.obj = HFN.renderTemplate(HFN.config.isMobile() ? "#darkboxmobile" : "#darkbox").addClass(this.name).hide().appendTo(document.body);
+                    f.opts.code || (HFN.renderTemplate("#darkboxshare"), d = HFN.renderTemplate("#darkboxopts"), d.addClass(f.name), this.list[a].revisionid || !this.list[a].ismine ? this.obj.find(".opts").hide() : (this.obj.find(".opts").show(), popOver.attach({
+            }), console.log("SET SEC #2",
+                this.obj = HFN.renderTemplate("#audioplayer");
+                    d = "#" + c.id + "_container";
+        var a = this.renderTemplate("#createplaylist"),
+        var b, c = HFN.renderTemplate("#collectionAd"),
+        var b = this.renderTemplate("#collectionRename", {
+        var b = HFN.renderTemplate("#collectionDelete", {
+            this.obj.css("border", "1px solid #000");
+            this.obj.css("border", "1px solid #000");
+        var a = HFN.renderTemplate("#monthlyusage");
+            !c.expandFirstLevel || 0 != a.folderid && a.folderid != c.expandFirstLevel || (console.log("case #3"), d.find(".ctrl").trigger("click"))
+            c = this.renderTemplate("#downloadImageSizes", {
+            this.renderTemplate("#downloadVideoConverts");
+                5E3 == a.result && HFN.message(__('There is problem with loading your account. Please try again, and if the problem persists, <a href="#page=contact">contact us</a>.'),
+                5E3 == a.result && HFN.message(__('There is problem with loading your account. Please try again, and if the problem persists, <a href="#page=contact">contact us</a>.'),
+        console.log("PREVIEW FILE #1", a.category);
+        console.log("PREVIEW FILE #2",
+            !1 == b.acrobat) Popup.close(), Popup.open(HFN.renderTemplate("#notInstalledPdf", {
+        var b = this.renderTemplate("#previewArchive");
+        var b = HFN.renderTemplate("#sharefolder");
+                var b = HFN.renderTemplate("#share-entity", {
+        var y = HFN.renderTemplate("#perm-explain");
+            var c = HFN.renderTemplate("#businessShare"),
+                    var c = HFN.renderTemplate("#businessShareEntity", {
+                        color: "#e8e8e8",
+                        color: "#e8e8e8",
+        var b = this.renderTemplate("#businessShareChoice"),
+            if (HFN.config.isMobile()) var b = HFN.renderTemplate("#shareChoiceMobile", {}),
+            else b = HFN.renderTemplate("#shareChoice", {}), c = a ? [a] : FileSelection.getSelectionInfo();
+        var b = HFN.renderTemplate("#revisions", {});
+        var b = HFN.renderTemplate("#revertRev", {
+        cont = this.renderTemplate("#extractArchive", {
+                    "error") : cont.find("#xnewf").prop("checked") ? HFN.getOrCreateFolder(a.name.replace("." + fileext(a.name), ""), extractFolder, function(a) {
+        var d = this.renderTemplate("#extractProgress", {
+        var b = this.renderTemplate("#savezip");
+                linkurl: "https://" + window.location.hostname + "/#page=puplink&code=" + a.code,
+                puplinkopen: "https://" + window.location.hostname + "/#page=puplink&code=" + a.code
+        if (HFN.config.isMobile()) b.find("#copy-puplink").remove(),
+            var e = new ZeroClipboard($(".modal a#copy-puplink")[0]);
+        var b = this.renderTemplate("#stopAllShares", {
+        var b = this.renderTemplate("#deleteLinks");
+        var b = this.renderTemplate("#deleteLinks"),
+        var b = this.renderTemplate("#exportLinks");
+        var c = this.renderTemplate("#sharepublink", {
+        var f = new ZeroClipboard($(".modal a#copy-publink")[0]);
+            var g = new ZeroClipboard($(".modal a#copy-shortlink")[0]);
+        var b = this.renderTemplate("#preview-files", {
+            console.log("data #2", a);
+            d ? b(d) : (console.log("op #2", c), HFN.apiMethod("getfilepublink", {
+            var c = "transferlink" == $.bbq.getState("page") ? "#topadtransfer" : "#topad";
+                        $("#jquery_jplayer_1").jPlayer({
+        var a = this.renderTemplate("#trashDelete"),
+        var a = this.renderTemplate("#trashDeleteAll");
+        var a = this.renderTemplate("#trashRestoreAll");
+        var a = this.renderTemplate("#trashRestore"),
+        var e = HFN.renderTemplate("#loginRegisterModal", {
+            window.location.href = "https://my.pcloud.com/#page=login&fpass=1&returl=" + window.location.href
+            a = $("#email").val();
+            var c = $("#password").val();
+            var c = $("#regemail").val(),
+                d = $("#regpassword").val();
+            a = $("#regrepeatpassword").val();
+            var e = $("input#terms").prop("checked") ? 1 : 0;
+        var a = HFN.renderTemplate("#cryptostatus", {
+        Popup.open(this.renderTemplate("#survey", {
+        f = HFN.renderTemplate(this.opts.cheadtpl || "#cheadtmpl");
+        d = HFN.renderTemplate(this.opts.cheadtpl || "#cheadtmpl");
+        HFN.renderTemplate("#cheadtmpltrash").appendTo(c);
+        var b = HFN.renderTemplate("#cheadtmplsongs"),
+        var b = HFN.renderTemplate("#cheadtmpltitle"),
+        var b = HFN.renderTemplate("#cheadtmplpublinks");
+            d = $('<a href="/#page=publink&code=' + a.code + '" target="_blank"><span class="filename">' + HFN.strFit(c.name, 30) + "</span></a>");
+        var b = HFN.renderTemplate("#cheadtmplpublinks");
+            var f = $('<a href="#page=filemanager&folder=' + a.metadata.folderid + '"><span class="filename folder">' + e.name + "</span></a>");
+            d = $('<a href="#page=filemanager&folder=' + a.metadata.folderid + '"><span class="filename folder">' + HFN.strFit(c.name, 30) + "</span></a>");
+        this.opts.metadata.isfolder && this.opts.metadata.ismine && "mobilefolderlist" == this.opts.template && (c = '<div style="float:right;margin-right:10px;"> <a href="#" class="newfolder">New folder</a>  </div> <div class="clearfix"></div> ');
+            })) : "string" != typeof a || "#" != a.substring(0, 1) && "." != a.substring(0, 1) ? this.show(a, b.fadeSpeed) : this.show($(a).clone().css("display", ""), b.fadeSpeed);
+            })) : "string" != typeof a || "#" != a.substring(0,
+            cheadtpl: "#pubcheadtmpl",
+                console.log("loaded data #2: ", d);
+                console.log("loaded data #2: ", c);
+                console.log("loaded data #2: ", d);
+                console.log("#1", c.collections);
+                console.log("#2", d);
+        $("#tutorial-close-bottom").on("click", function() {
+        $("#tut-back").click(function() {
+        $("#tut-next").click(function() {
+        $("#temp-black-screen").click(function() {
+        $("#tutorials .close-modal").click(function() {
+        $("#show-startup").change(function() {
+        "1" == rcookie("tutns") && $("#show-startup").attr("checked",
+        HFN.tutorial.opened && (HFN.tutorial.loading = !1, HFN.tutorial.opened = !1, $("#tutorials").remove(), $("#temp-black-screen").remove(), HFN.config.auth && HFN.apiMethod("givebonus", {
+            }), $("#newsletter-button").remove(), $("#unsubscribe-link").on("click", function() {
+                $("#newsletter-button").removeClass("disabled").on("click.verifyemail", function(a) {
+                    $("#newsletter-button").addClass("disabled").off("click.verifyemail");
+                $("#newsletter-button").removeClass("disabled").on("click.subscribe", function(a) {
+                    $("#newsletter-button").addClass("disabled").off("click.subscribe");
+                        $("#newsletter-button").remove();
+        $("body").append("<style>.str{color: #EC7600;} .kwd{color: #93C763;} .com{color: #66747B;} .typ{color: #678CB1;} .lit{color: #FACD22;} .pun{color: #F1F2F3;} .pln{color: #F1F2F3;} .tag{color: #8AC763;} .atn{color: #E0E2E4;} .atv{color: #EC7600;} .dec{color: purple; } pre.prettyprint{ border: 0px solid #888; margin: 0; background-color: #000; } ol.linenums{ margin-top: 0; margin-bottom: 0; padding-left: 65px;}.prettyprint {background: #000;} li.L0, li.L1, li.L2, li.L3, li.L4, li.L5, li.L6, li.L7, li.L8, li.L9{ color: #555; list-style-type: decimal; }  li.L1, li.L3, li.L5, li.L7, li.L9 {background: #111;}</style>");
+    registerUrl: "https://www.getcoversafe.co.uk/#register",
+        $("#dlhref").length || $(document.body).append('<a href="javascript:;" id="dlhref" style="visibility:hidden;">test</a>');
+            var c = $("#dlhref")[0];
+            a = HFN.renderTemplate("#cant-download");
+                var b = HFN.renderTemplate("#crypto-download"),
+                                        h.decryptError(a, "failed to verify tree level #1", m, k.length, c.authdata[m - 1].length);
+                                        h.decryptError(a, "failed to verify tree level #2", m, k.length, c.authdatacnt[m - 1] * pCrypt.AUTH_SIZE);
+                                        h.decryptError(a, "failed to verify tree level #3", m, c.authdata[m - 1], n);
+            if (f & 7) throw new sjcl.exception.invalid("pkcs#5 padding only works for multiples of a byte");

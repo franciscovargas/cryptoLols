@@ -1,0 +1,152 @@
+        sb = Qa.crypto || Qa.msCrypto,
+    void 0 === Qa.crypto && (Qa.crypto = {});
+    Qa.crypto.getRandomValues = tb;
+        'You are about to reset the crypto of your account "<b>%email%</b>". This action<br> is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.': 'You are about to reset the Crypto Pass for the account "<b>%email%</b>". This action<br> is <b>irreversible</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.',
+        "Your crypto has <b>not</b> been reset. This link has been invalidated.": "Reset Request was <b>cancelled<b>. Your files and folders are safe.",
+        "Your crypto has been reset.": "Your Crypto Pass has been reset.",
+        'You are about to reset the crypto of your account "<b>%email%</b>". This action is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.': 'You are about to reset the crypto of your account "<b>%email%</b>". This action is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.',
+        pcloud_crypto_only_on_drive_message: "Currently you can manage your encrypted files only from %pcloud_drive% and pCloud App for %ios_app% and %android_app%.<br>pCloud Crypto for Web is coming soon!",
+        'You are about to reset the crypto of your account "<b>%email%</b>". This action<br> is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.': '\u041d\u0430 \u043f\u044a\u0442 \u0441\u0442\u0435 \u0434\u0430 \u043d\u0443\u043b\u0438\u0440\u0430\u0442\u0435 Crypto Pass \u0437\u0430 \u0430\u043a\u0430\u0443\u043d\u0442\u0430 "<b>%email%</b>". \u0422\u043e\u0432\u0430 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435<br> \u0435 <b>\u043d\u0435\u043e\u0431\u0440\u0430\u0442\u0438\u043c\u043e</b> \u0438 \u0449\u0435 <b>\u0438\u0437\u0442\u0440\u0438\u0435 \u0432\u0441\u0438\u0447\u043a\u0438</b> \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0438 <b>\u043a\u0440\u0438\u043f\u0442\u0438\u0440\u0430\u043d\u0438 \u0444\u0430\u0439\u043b\u043e\u0432\u0435</b>.',
+        "Your crypto has <b>not</b> been reset. This link has been invalidated.": "\u0417\u0430\u044f\u0432\u043a\u0430\u0442\u0430 \u0437\u0430 \u043f\u0440\u043e\u043c\u044f\u043d\u0430 \u0435 <b>\u043e\u0442\u043c\u0435\u043d\u0435\u043d\u0430<b>. \u0412\u0430\u0448\u0438\u0442\u0435 \u0444\u0430\u0439\u043b\u043e\u0432\u0435 \u0438 \u043f\u0430\u043f\u043a\u0438 \u0441\u0430 \u0437\u0430\u043f\u0430\u0437\u0435\u043d\u0438.",
+        "Your crypto has been reset.": "Crypto Pass \u0435 \u043f\u043e\u0434\u043d\u043e\u0432\u0435\u043d.",
+        'You are about to reset the crypto of your account "<b>%email%</b>". This action is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.': '\u041d\u0430 \u043f\u044a\u0442 \u0441\u0442\u0435 \u0434\u0430 \u043f\u043e\u0434\u043d\u043e\u0432\u0438\u0442\u0435 \u043a\u0440\u0438\u043f\u0442\u043e\u0442\u043e \u0432\u044a\u0432 \u0432\u0430\u0448\u0438\u044f \u0430\u043a\u0430\u0443\u043d\u0442 <b>%email%</b>". \u0422\u043e\u0432\u0430 \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u0435 <b>\u043e\u043a\u043e\u043d\u0447\u0430\u0442\u0435\u043b\u043d\u043e</b> \u0438 \u0449\u0435 <b>\u0438\u0437\u0442\u0440\u0438\u0435 \u0432\u0441\u0438\u0447\u043a\u0438</b> \u043d\u0430\u0441\u0442\u043e\u044f\u0449\u0438 <b>\u043a\u0440\u0438\u043f\u0442\u0438\u0440\u0430\u043d\u0438 \u0444\u0430\u0439\u043b\u043e\u0432\u0435</b>.',
+        pcloud_crypto_only_on_drive_message: "\u0412 \u043c\u043e\u043c\u0435\u043d\u0442\u0430 \u043c\u043e\u0436\u0435\u0442\u0435 \u0434\u0430 \u0443\u043f\u0440\u0430\u0432\u043b\u044f\u0432\u0430\u0442\u0435 \u043a\u0440\u0438\u043f\u0442\u0438\u0440\u0430\u043d\u0438\u0442\u0435 \u0441\u0438 \u0444\u0430\u0439\u043b\u043e\u0432\u0435 \u0441\u0430\u043c\u043e \u043e\u0442 %pcloud_drive% \u0438 \u043e\u0442 \u043f\u0440\u0438\u043b\u043e\u0436\u0435\u043d\u0438\u0435\u0442\u043e \u043d\u0430 pCloud \u0437\u0430 %ios_app% \u0438 %android_app%. <br> \u041e\u0447\u0430\u043a\u0432\u0430\u0439\u0442\u0435 \u0441\u043a\u043e\u0440\u043e pCloud Crypto \u0437\u0430 \u0443\u0435\u0431! ",
+        'You are about to reset the crypto of your account "<b>%email%</b>". This action<br> is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.': 'Est\u00e1 a punto de restablecer la Crypto Pass de la cuenta"<b>%email%</b>". Esta acci\u00f3n<br> es <b>irreversible</b> y esto <b>borrar\u00e1 todos</b> sus <b>archivos actualmente cifrados</b>.',
+        "Your crypto has <b>not</b> been reset. This link has been invalidated.": "Su solicitud de restablecimiento fue<b>cancelada<b>. Sus archivos y carpetas est\u00e1n seguras.",
+        "Your crypto has been reset.": "Su Crypto Pass se ha restablecido.",
+        'You are about to reset the crypto of your account "<b>%email%</b>". This action is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.': 'Est\u00e1 a punto de reiniciar crypto de su cuenta"<b>%email%</b>". Esta acci\u00f3n es <b>final</b> y esto <b>borrar\u00e1 todos</b> sus <b>archivos actualmente cifrados</b>.',
+        pcloud_crypto_only_on_drive_message: "\u00a1Actualmente solo puedes administrar sus archivos cifrados solo desde %pcloud_drive%! y pCloud App para %ios_app% y %android_app%.<br>\u00a1pCloud Crypto para web se lanzar\u00e1 pronto!",
+        'You are about to reset the crypto of your account "<b>%email%</b>". This action<br> is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.': '\u0412\u044b \u0441\u043e\u0431\u0438\u0440\u0430\u0435\u0442\u0435\u0441\u044c \u0441\u0431\u0440\u043e\u0441\u0438\u0442\u044c Crypto Pass \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u0430  "<b>%email%</b>". \u042d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 <br> \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f <b>\u043d\u0435\u043e\u0431\u0440\u0430\u0442\u0438\u043c\u044b\u043c</b> \u0438 \u043e\u043d\u043e <b>\u0443\u0434\u0430\u043b\u0438\u0442 \u0432\u0441\u0435</b> \u0412\u0430\u0448\u0438 \u0442\u0435\u043a\u0443\u0449\u0438\u0435 <b>\u0437\u0430\u0448\u0438\u0444\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u0444\u0430\u0439\u043b\u044b</b>.',
+        "Your crypto has <b>not</b> been reset. This link has been invalidated.": "\u0417\u0430\u043f\u0440\u043e\u0441 \u043d\u0430 \u0441\u0431\u0440\u043e\u0441 \u0431\u044b\u043b <b>\u043e\u0442\u043c\u0435\u043d\u0451\u043d<b>. \u0412\u0430\u0448\u0438 \u0444\u0430\u0439\u043b\u044b \u0438 \u043f\u0430\u043f\u043a\u0438 \u0432 \u0431\u0435\u0437\u043e\u043f\u0430\u0441\u043d\u043e\u0441\u0442\u0438.",
+        "Your crypto has been reset.": "\u0412\u0430\u0448 Crypto Pass \u0431\u044b\u043b \u0441\u0431\u0440\u043e\u0448\u0435\u043d.",
+        'You are about to reset the crypto of your account "<b>%email%</b>". This action is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.': '\u0412\u044b \u0441\u043e\u0431\u0438\u0440\u0430\u0435\u0442\u0435\u0441\u044c \u0441\u0431\u0440\u043e\u0441\u0438\u0442\u044c crypto \u0412\u0430\u0448\u0435\u0433\u043e \u0430\u043a\u043a\u0430\u0443\u043d\u0442\u0430 "<b>%email%</b>. \u042d\u0442\u043e \u0434\u0435\u0439\u0441\u0442\u0432\u0438\u0435 \u044f\u0432\u043b\u044f\u0435\u0442\u0441\u044f  <b>\u0444\u0438\u043d\u0430\u043b\u044c\u043d\u044b\u043c</b> \u0438 <b>\u0443\u0434\u0430\u043b\u0438\u0442\u044c \u0432\u0441\u0435</b> \u0412\u0430\u0448\u0438 \u0442\u0435\u043a\u0443\u0449\u0438\u0435 <b>\u0437\u0430\u0448\u0438\u0444\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0435 \u0444\u0430\u0439\u043b\u044b</b>.',
+        pcloud_crypto_only_on_drive_message: "\u0412 \u0434\u0430\u043d\u043d\u044b\u0439 \u043c\u043e\u043c\u0435\u043d\u0442 \u0412\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u0443\u043f\u0440\u0430\u0432\u043b\u044f\u0442\u044c \u0442\u043e\u043b\u044c\u043a\u043e \u0437\u0430\u0448\u0438\u0444\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u043c\u0438 \u0444\u0430\u0439\u043b\u0430\u043c\u0438 \u0438\u0437 %pcloud_drive%.<br> \u0438 pCloud App \u0434\u043b\u044f %ios_app% \u0438 %android_app%.\npCloud Crypto \u0434\u043b\u044f \u0432\u0435\u0431 \u043e\u0436\u0438\u0434\u0430\u0439\u0442\u0435 \u0432 \u0441\u043a\u043e\u0440\u043e\u043c \u0432\u0440\u0435\u043c\u0435\u043d\u0438!",
+        'You are about to reset the crypto of your account "<b>%email%</b>". This action<br> is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.': 'Voc\u00ea est\u00e1 prestes a redefinir a Crypto Pass da conta "<b>%email%</b>". Esta a\u00e7\u00e3o<br> \u00e9 <b>irrevers\u00edvel</b> e ir\u00e1 <b>excluir todo</b> seu conte\u00fado atualmente criptografado.  ',
+        "Your crypto has <b>not</b> been reset. This link has been invalidated.": "Pedido de Redefini\u00e7\u00e3o foi <b>cancelado</b>. Seus arquivos e pastas est\u00e3o seguros.",
+        "Your crypto has been reset.": "Sua Crypto Pass foi redefinida.",
+        'You are about to reset the crypto of your account "<b>%email%</b>". This action is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.': 'Voc\u00ea est\u00e1 prestes a redefinir o crypto da sua conta "<b>%email%</b>". Esta a\u00e7\u00e3o \u00e9 <b>final</b> e ir\u00e1 <b>excluir todos</b> os seus atuais <b>arquivos criptografados</b>.',
+        pcloud_crypto_only_on_drive_message: "No momento, voc\u00ea pode gerenciar seus arquivos criptografados apenas no %pcloud_drive% e nos Aplicativos pCloud para %ios_app% e %android_app%.\n<br>pCloud Cypto para Web em breve!",
+        'You are about to reset the crypto of your account "<b>%email%</b>". This action<br> is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.': 'Vous \u00eates sur le point de r\u00e9initialiser la Passphrade de votre compte "<b>%email%</b>". Cette action<br> est <b>irr\u00e9versible</b> et <b>supprimera tous</b> vos <b>fichiers actuellement crypt\u00e9s</b>.',
+        "Your crypto has <b>not</b> been reset. This link has been invalidated.": "La demande de r\u00e9initialisation a \u00e9t\u00e9 <b>annul\u00e9e<b>. Vos fichiers et vos dossiers sont en s\u00e9curit\u00e9.",
+        "Your crypto has been reset.": "Votre Phrase secr\u00e8te a \u00e9t\u00e9 r\u00e9initialis\u00e9e.",
+        'You are about to reset the crypto of your account "<b>%email%</b>". This action is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.': 'Vous \u00eates sur le point de r\u00e9initialiser le crypto de votre compte "<b>%email%</b>". Cette action<br> est <b>irr\u00e9versible</b> et <b>supprimera tous</b> vos <b>fichiers actuellement crypt\u00e9s</b>.',
+        pcloud_crypto_only_on_drive_message: "Vous ne pouvez actuellement g\u00e9rer vos fichiers crypt\u00e9s que depuis %pcloud_drive% et l'appli pCloud pour %ios_app% et %android_app%.<br> Arriv\u00e9e de pCloud Crypto pour navigateur tr\u00e8s prochainement !",
+        'You are about to reset the crypto of your account "<b>%email%</b>". This action<br> is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.': 'Stai per ripristinare la Crypto Pass per l\'account "<b>%email%</b>". Questa azione<br> i\u00e8 <b>irreversibile</b> e<b>eliminer\u00e0</b> tutti i tuoi attuali<b>files crittografati.</b>.',
+        "Your crypto has <b>not</b> been reset. This link has been invalidated.": "La richiesta di ripristino \u00e8 statao <b> cancellara <b>. I tuoi files e cartelle sono al sicuro.",
+        "Your crypto has been reset.": "La tua Crypto Pass \u00e8 stata ripristinata. ",
+        'You are about to reset the crypto of your account "<b>%email%</b>". This action is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.': 'Stai per ripristinare la crittografia del tuo account.\n"<b>%email%</b>".Questa azione \u00e8 <b>finale</b> e<b>eliminer\u00e0</b>\ntutti i tuoi attuali<b>files criptati</b>.',
+        pcloud_crypto_only_on_drive_message: "Attualmente puoi gestire i tuoi files solamente da %pcloud_drive% e la pCloud App per  %ios_app% and %android_app%. <br> pCloud Crypto per il Web \u00e8 in arrivo presto!",
+        'You are about to reset the crypto of your account "<b>%email%</b>". This action<br> is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.': 'Sie sind dabei, den Crypto Pass f\u00fcr das Konto "<b>% email% </b>" zur\u00fcckzusetzen. Diese Handlung ist <b> unwiderruflich </b>, und es wird <b> alle</b> Ihrer <b> verschl\u00fcsseltem Dateien </b> l\u00f6schen.',
+        "Your crypto has <b>not</b> been reset. This link has been invalidated.": "Zur\u00fccksetzungsanfrage wurde <b> abgebrochen <b>. Ihre Dateien und Ordner sind sicher.",
+        "Your crypto has been reset.": "Ihr Crypto Pass wurde zur\u00fcckgesetzt.",
+        'You are about to reset the crypto of your account "<b>%email%</b>". This action is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.': 'Sie sind dabei, den Crypto Ihres Kontos zur\u00fcckzusetzen "<b>% email% </b>". Diese Handlung ist <b> endg\u00fcltig </b>, und es wird <b> alle</b> Ihrer <b> verschl\u00fcsseltem Dateien </b> l\u00f6schen.',
+        pcloud_crypto_only_on_drive_message: "Zur Zeit k\u00f6nnen Sie Ihre verschl\u00fcsselten Dateien nur von %pcloud_drive% und pCloud App f\u00fcr %ios_app% and %android_app% verwalten. <br>\npCloud Crypto f\u00fcr Web in K\u00fcrze!",
+        'You are about to reset the crypto of your account "<b>%email%</b>". This action<br> is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.': '"<b>%email%</b>" adl\u0131 hesap i\u00e7in Crypto Pass ayarlamak \u00fczeresiniz. Bu eylem <br> <b>geriye d\u00f6nd\u00fcr\u00fclemez</b> ve t\u00fcm mevcut <b>\u015fifreli dosyalar\u0131 silecektir</b>.',
+        "Your crypto has <b>not</b> been reset. This link has been invalidated.": "Ayarlama Talebi <b>iptal edildi<b>. Dosyalar\u0131n\u0131z ve klas\u00f6rleriniz g\u00fcvende.",
+        "Your crypto has been reset.": "Crypto Pass kelimeniz ayarlanm\u0131\u015ft\u0131r. ",
+        'You are about to reset the crypto of your account "<b>%email%</b>". This action is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.': '"<b>%email%</b>" adl\u0131 hesab\u0131n\u0131z i\u00e7in Crypto kelimesini ayarlamak \u00fczeresiniz. Bu eylem <br> <b>sondur</b> ve t\u00fcm mevcut <b>\u015fifreli dosyalar\u0131 silecektir</b>.',
+        pcloud_crypto_only_on_drive_message: "\u015eu an \u015fifrelenmi\u015f dosyalar\u0131n\u0131z\u0131 sadece %pcloud_drive% ve %ios_app% ve %android_app% i\u00e7in tasarlanm\u0131\u015f pCloud uygulamalar\u0131ndan y\u00f6netebilirsiniz.\n<br> Web i\u00e7in pCloud Crypto yak\u0131nda geliyor!",
+        'You are about to reset the crypto of your account "<b>%email%</b>". This action<br> is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.': '\u60a8\u5373\u5c07\u91cd\u8a2d\u6b64\u5e33\u6236"<b>%email%</b>"\u7684Crypto Pass\u91d1\u9470\u3002\u6b64\u64cd\u4f5c<br>\u5c07 <b>\u7121\u6cd5\u9084\u539f</b>\u4e14\u5c07 <b>\u522a\u9664\u6240\u6709</b>\u60a8\u76ee\u524d<b>\u5df2\u52a0\u5bc6\u7684\u6a94\u6848</b>\u3002',
+        "Your crypto has <b>not</b> been reset. This link has been invalidated.": "\u91cd\u8a2d\u8acb\u6c42\u5df2\u88ab<b>\u53d6\u6d88<b>\u3002\u60a8\u7684\u6a94\u6848\u548c\u8cc7\u6599\u593e\u5b89\u7136\u7121\u6059\u3002",
+        "Your crypto has been reset.": "\u60a8\u7684Crypto Pass\u91d1\u9470\u5df2\u91cd\u8a2d\u3002",
+        'You are about to reset the crypto of your account "<b>%email%</b>". This action is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.': '\u60a8\u5373\u5c07\u91cd\u8a2d\u60a8\u5e33\u6236<b>%email%</b>"\u7684Crypto\u8a2d\u7f6e\u3002\u6b64\u64cd\u4f5c\u5c07<b>\u7121\u6cd5\u9084\u539f</b>\u4e14\u5c07<b>\u522a\u9664\u6240\u6709</b>\u60a8\u76ee\u524d<b>\u5df2\u52a0\u5bc6\u7684\u6a94\u6848</b>\u3002',
+        pcloud_crypto_only_on_drive_message: "\u76ee\u524d\u60a8\u50c5\u80fd\u900f\u904e%pcloud_drive% \u548c%ios_app%\u7248\u53ca%android_app%\u7248\u7684pCloud\u61c9\u7528\u7a0b\u5f0f\u4f86\u7ba1\u7406\u5df2\u52a0\u5bc6\u7684\u6a94\u6848\u3002<br>pCloud Crypto\u7db2\u9801\u7248\u5373\u5c07\u4e0a\u5e02\uff01",
+        'You are about to reset the crypto of your account "<b>%email%</b>". This action<br> is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.': '\u0634\u0645\u0627 \u062f\u0631 \u062d\u0627\u0644 \u0628\u0627\u0632\u0646\u0634\u0627\u0646\u06cc \u0639\u0628\u0627\u0631\u062a \u0639\u0628\u0648\u0631 \u0628\u0631\u0627\u06cc \u062d\u0633\u0627\u0628 "<b>%email%</b>" \u0647\u0633\u062a\u06cc\u062f. \u0627\u06cc\u0646 \u0639\u0645\u0644 <br>\u063a\u06cc\u0631 \u0642\u0627\u0628\u0644 \u0628\u0631\u06af\u0634\u062a</b> \u0648 \u0647\u0645\u06c0 <b>\u0641\u0627\u06cc\u0644\u200c\u0647\u0627\u06cc \u0631\u0645\u0632\u06af\u0630\u0627\u0631\u06cc\u200c\u0634\u062f\u0647</b> \u0634\u0645\u0627 <b>\u062d\u0630\u0641</b> \u062e\u0648\u0627\u0647\u0646\u062f \u0634\u062f.',
+        "Your crypto has <b>not</b> been reset. This link has been invalidated.": "\u062f\u0631\u062e\u0648\u0627\u0633\u062a \u0628\u0627\u0632\u0646\u0634\u0627\u0646\u06cc <b>\u0644\u063a\u0648<b> \u0634\u062f. \u0641\u0627\u06cc\u0644\u200c\u0647\u0627 \u0648 \u067e\u0648\u0634\u0647\u200c\u0647\u0627 \u0627\u0645\u0646 \u0647\u0633\u062a\u0646\u062f.",
+        "Your crypto has been reset.": "\u0639\u0628\u0627\u0631\u062a \u0639\u0628\u0648\u0631 \u0634\u0645\u0627 \u0628\u0627\u0632\u0646\u0634\u0627\u0646\u06cc \u0634\u062f.",
+        'You are about to reset the crypto of your account "<b>%email%</b>". This action is <b>final</b> and it will <b>delete all</b> your currently <b>encrypted files</b>.': '\u0634\u0645\u0627 \u062f\u0631 \u062d\u0627\u0644 \u0628\u0627\u0632\u0646\u0634\u0627\u0646\u06cc Crypto \u0628\u0631\u0627\u06cc \u062d\u0633\u0627\u0628 "<b>%email%</b>" \u0647\u0633\u062a\u06cc\u062f. \u0627\u06cc\u0646 \u0639\u0645\u0644 <br>\u0646\u0647\u0627\u06cc\u06cc</b> \u0648 \u0647\u0645\u06c0 <b>\u0641\u0627\u06cc\u0644\u200c\u0647\u0627\u06cc \u0631\u0645\u0632 \u06af\u0630\u0627\u0631\u06cc \u0634\u062f\u0647</b> \u0634\u0645\u0627 <b>\u062d\u0630\u0641</b> \u062e\u0648\u0627\u0647\u0646\u062f \u0634\u062f.\n',
+        pcloud_crypto_only_on_drive_message: "\u0634\u0645\u0627 \u062f\u0631 \u062d\u0627\u0644 \u062d\u0627\u0636\u0631 \u0645\u06cc\u200c\u062a\u0648\u0627\u0646\u06cc\u062f \u0641\u0627\u06cc\u0644\u200c\u0647\u0627\u06cc \u0631\u0645\u0632\u06af\u0630\u0627\u0631\u06cc\u200c\u0634\u062f\u0647 \u0631\u0627 \u0641\u0642\u0637 \u0627\u0632 \u0637\u0631\u06cc\u0642 %pcloud_drive% \u0648 \u0628\u0631\u0646\u0627\u0645\u0647\u200c\u0647\u0627\u06cc \u06a9\u0627\u0631\u0628\u0631\u062f\u06cc \u0645\u0648\u0628\u0627\u06cc\u0644 %ios_app% \u0648 android_app% \u0645\u062f\u06cc\u0631\u06cc\u062a \u06a9\u0646\u06cc\u062f. \u062e\u062f\u0645\u0627\u062a pCloud Crypto \u0628\u0631\u0627\u06cc \u0648\u0628 \u0628\u0647\u200c\u0632\u0648\u062f\u06cc \u0622\u0645\u0627\u062f\u0647 \u0645\u06cc\u200c\u0634\u0648\u062f !",
+        "crypto" == this.opts.type ? this.initCryptoUpload(a, b) : "xhr" == this.opts.type ? this.initXhrUpload(a, b) : "remote" == this.opts.type ? this.initRemoteUpload(a, b) : "drop" == this.opts.type ? this.initDropUpload(a, b) : "folder" == this.opts.type ? this.initFolderUpload(a,
+            c.opts.crypto ? c.handleCryptoUpload.apply(c, arguments) : c.handleUpload.apply(c, arguments)
+                crypto: !0
+            $(c.opts.ctrlPlaceholder + " .uploadtofolder").append(i18n.get("Uploading to") + ': <img src="//d1q46pwrruta9x.cloudfront.net/img/icons/20/crypto-folder-upload.png" width="20" height="20"> <strong>' +
+            c.opts.crypto ? c.handleCryptoUpload.apply(c, arguments) : c.handleUpload.apply(c, arguments)
+            c.opts.crypto && (b = "crypto-folder-upload.png");
+        this.opts.crypto && (h.off("click"), $(this.opts.ctrlPlaceholder).append('<div class="disabled"></div>').addClass("disabled"), f.text("Remote downloading is disabled for encrypted folders."))
+        this.uploads[b].crypto && (f.addClass("encrypted"), f.find("span.name").prepend($('<img src="//d1q46pwrruta9x.cloudfront.net/img/crypto-upload.png" class="encrypted">').attr("title", __("encrypted_upload", "Encrypted Upload")).tooltip({
+            if (this.uploads[a].crypto) this.startCryptoUpload(a), this.uploads[a].status =
+        this.uploads[a].crypto || setTimeout(this[this.opts.intProgressMethod].bind(this, a, !0), 80);
+        this.uploads[a].crypto ? -1 != this.uploads[a].encuploadid && pCloudCryptoUpload.abort(this.uploads[a].encuploadid) : this.uploads[a].xhr ? this.uploads[a].xhr.abort() : (this.uploads[a].iframe && this.uploads[a].iframe.remove(), this.uploads[a].form && this.uploads[a].form.remove());
+                p.text(b.metadata[f].name), p.appendTo($(h.find("span")[0])), this.uploads[a].crypto && h.find("span.name").prepend($('<img src="//d1q46pwrruta9x.cloudfront.net/img/crypto-upload.png" class="encrypted">').attr("title", __("encrypted_upload", "Encrypted Upload")).tooltip({
+            return this.cryptoSettings()
+        cryptoCanSetup: function() {
+            return !this.user.cryptosetup && new Date(this.user.cryptoexpires) > new Date
+        cryptoSettings: function() {
+            return this.user.cryptosetup || new Date(this.user.cryptoexpires) > new Date
+        cryptoSubscribe: function() {
+            return this.user.cryptosubscription
+        cryptoCanSet: function() {
+            return HFN.config.user.cryptosubscription || new Date(HFN.config.user.cryptoexpires) > new Date
+        cryptoSubscribed: function() {
+            return this.user.cryptosubscription && new Date(this.user.cryptoexpires) > new Date
+            HFN.config.cryptoSettings() && c.push(HFN.initCrypto());
+        if ($(".ctn-crypto-tpl.loaded").length) a(), b.resolve();
+            $("html").addClass("crypto-account");
+                url: "/templates/crypto-tpl.html",
+                $(".ctn-crypto-tpl").append(a).addClass("loaded")
+        console.log("init analytics", HFN.config.user.cryptosetup);
+        HFN.config.user.cryptosetup ? ($("script.ga-script").remove(), ga = void 0) : $("script.ga-script").length || (function(a, b, c, d, e, f, g) {
+                    if (b.splice(1, 0, [i18n.get("Settings"), "#page=settings", []]), b[1][2].push([__("Account"), "#page=settings&settings=tab-account"]), HFN.config.label.hasLinkedAccounts && b[1][2].push([__("Linked Accounts"), "#page=settings&settings=tab-apps"]), HFN.config.user.cryptosetup && b[1][2].push([__("Crypto"), "#page=settings&settings=tab-crypto"]), b.splice(0, 1), "pcloud" == LABEL && b.push([i18n.get("Newsletter"), "javascript:(function(){ HFN.newsletter.show();})()"]),
+                    a.cryptosetup && b.push(HFN.initCrypto());
+                b.cryptosetup != a.userinfo.cryptosetup && (HFN.initGoogleAnalytics(), a.userinfo.cryptosetup || (pCrypt.locked || pCloudCrypto.lock(), $.bbq.pushState({
+                    page: "crypto"
+        $(".uplplc").empty().append($('<div class="button upload_button lock_crypto_btn"><img src="//d1q46pwrruta9x.cloudfront.net/img/crypto/lock_crypto.png"> ' + i18n.get("Lock Crypto") + "</div>").click(function(a) {
+                page: "crypto"
+                $.bbq.getState("crypto"), HFN.initUploadButton(currentFolder || 0), this.activate()) : (this.disable(), HFN.initCreateAccountButton()), HFN.config.auth && (new Date(HFN.config.user.registered)).getTime() + 2592E5 > (new Date).getTime() && $("li.audio").append('<span class="badge">new</span>')) : "business" == a && HFN.initBackToFilesButton();
+            reset_crypto: {
+                name: "reset_crypto",
+                ajax: "/a/reset_crypto.html",
+            crypto: {
+                name: "crypto",
+                ajax: "/a/crypto.html",
+            cryptolocked: {
+                name: "cryptolocked",
+                ajax: "/a/crypto_locked.html",
+            cryptoset: {
+                name: "cryptoset",
+                ajax: "/a/crypto_setup.html",
+            cryptobuy: {
+                name: "cryptobuy",
+                ajax: "/a/crypto_buy.html",
+            cryptomob: {
+                name: "cryptomob",
+                ajax: "/a/crypto_mob.html",
+            cryptosupport: {
+                name: "cryptosupport",
+                ajax: "/a/crypto_support.html",
+                    type: "crypto",
+                    crypto: c,
+                    crypto: c,
+                    crypto: c,
+        HFN.apiMethod("crypto_getroot", {}, function(b) {
+                g.push(HFN.apiMethod("crypto_getfolderkey", {
+                        page: "crypto",
+        var a = HFN.renderTemplate("#cryptostatus", {
+            pcloud_crypto_only_on_drive_message: __("pcloud_crypto_only_on_drive_message", !1, {
+                "parentfolderid" in b.opts.metadata && ("Crypto Folder" != b.opts.metadata.name || !b.opts.metadata.encrypted) && pCloudCrypto.cryptoRoot != b.opts.metadata.folderid && a.find("span").last().append(buildGearMenu(b.opts.metadata));
+        "parentfolderid" in this.opts.metadata && this.opts.metadata.folderid != this.opts.metadata.parentfolderid && this.opts.metadata.folderid != pCloudCrypto.cryptoRoot && d.append($('<a class="cheader_up mnheader" href="javascript:void(0)">' + i18n.get("UP") + "</a>").click(function() {
+        "parentfolderid" in this.opts.metadata && this.opts.metadata.folderid != this.opts.metadata.parentfolderid && this.opts.metadata.folderid != pCloudCrypto.cryptoRoot && d.append($('<a class="cheader_up mnheader" href="javascript:void(0)">' +
+                    ["crypto", "Crypto Folder", {
+                        crypto: 1
+                    }, "leftmenu-crypto.png", "leftmenu-crypto-active.png"],
+                        page: "cryptomob"
+                    "class": "crypto"
+        if (this.locked) throw Error("crypto is locked");
+    crypto_getuserkeys: {
+    crypto_getfolderkey: {
+    crypto_getfilekey: {
+    crypto_reset: {
+    crypto_setuserkeys: {
+    crypto_getuserhint: {
+    crypto_getroot: {
+            HFN.apiMethod("crypto_getuserhint", {}, function(b) {
+                pCrypt.decryptPrivateKey(a, f["private"], f["public"]) ? HFN.apiMethod("crypto_setuserkeys", {
+            HFN.apiMethod("crypto_getuserkeys", {}, function(c) {
+            return HFN.apiMethod("crypto_getfolderkey", {
+            return HFN.apiMethod("crypto_getfilekey", {
+                var b = HFN.renderTemplate("#crypto-download"),
+        cryptoRoot: null,
+                    f = require("crypto")
+        if (d) a = b.randomBytes(128), a = new Uint32Array((new Uint8Array(a)).buffer), sjcl.random.addEntropy(a, 1024, "crypto.randomBytes");
+            if (window.crypto && window.crypto.getRandomValues) window.crypto.getRandomValues(c);
+            sjcl.random.addEntropy(c, 1024, "crypto.getRandomValues")
